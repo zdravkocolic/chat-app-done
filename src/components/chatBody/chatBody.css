@@ -1,0 +1,19 @@
+.main_chatbody {
+    flex-grow: 1;
+    background: radial-gradient(
+        ellipse at left bottom,
+        #45855b 10%,
+        #b3ffcd 50%,
+        #4d8f64 100%
+        );
+    border-radius: 10px;
+    padding: 15px 0px; 
+    display: flex;
+    width: 100%;
+}
+@media screen and (max-width: 600px) {
+    .main_chatbody {
+       width: 100%;
+       display: inline-block;
+     }
+   }
